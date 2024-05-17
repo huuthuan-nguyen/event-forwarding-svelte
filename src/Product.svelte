@@ -3,7 +3,7 @@
     export let title;
     export let price;
     export let bestseller = false;
-    export let id = "";
+    export let id;
     const dispatch = createEventDispatcher();
 
     function addToCart(event) {
